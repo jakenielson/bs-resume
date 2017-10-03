@@ -1,9 +1,11 @@
-$light-overlay: rgba(238,223,166,0.3);
-$light-color: #EEDFA6;
+$dark-overlay: rgba(0,0,0,0.3);
+$dark-color: #333;
+$light-color: #fff;
+$icon-size:48px;
 
 .navbar{
   border-bottom:$light-color 3px solid;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 #about-section {
@@ -12,8 +14,8 @@ $light-color: #EEDFA6;
   background-attachment: fixed;
   min-height: 700px;
 
-  .light-overlay {
-    background-color: $light-overlay;
+  .dark-overlay {
+    background-color: $dark-overlay;
     position: absolute;
     top: 0;
     left: 0;
@@ -23,5 +25,16 @@ $light-color: #EEDFA6;
 
   .home-inner {
     padding-top: 150px;
+  }
+}
+
+#skills-section {
+  .fa {
+    color: $dark-color;
+    background: $light-color;
+    padding: 6px;
+    margin: 10px;
+    border-radius: 100px;
+    font-size: $icon-size;
   }
 }

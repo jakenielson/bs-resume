@@ -3,6 +3,10 @@ $dark-color: #333;
 $light-color: #fff;
 $icon-size:48px;
 
+button:hover {
+  cursor: pointer;
+}
+
 .navbar{
   border-bottom:$light-color 3px solid;
   opacity: 0.9;
@@ -35,8 +39,4 @@ $icon-size:48px;
   font-size: 36px;
   line-height: 1.33;
   border-radius: 35px;
-}
-.btn-circle:hover {
-  background-color: lightblue;
-  cursor: pointer;
 }

@@ -28,17 +28,15 @@ $icon-size:48px;
   }
 }
 
-#skills-section {
-  .btn-circle {
-    width: 70px;
-    height: 70px;
-    text-align: center;
-    font-size: 36px;
-    line-height: 1.33;
-    border-radius: 35px;
-  }
-  .btn-circle:hover {
-    background-color: lightblue;
-    cursor: pointer;
-  }
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+.btn-circle:hover {
+  background-color: lightblue;
+  cursor: pointer;
 }

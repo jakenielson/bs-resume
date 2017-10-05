@@ -140,9 +140,36 @@
     </div>
   </section>
 
-  <section id="projects-section" class="bg-dark py-5">
-    <div class="container">
-
+  <section id="projects-section" class="bg-dark">
+    <div id="project-slider" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#project-slider" data-slide-to="0"></li>
+        <li data-target="#project-slider" data-slide-to="1"></li>
+        <li data-target="#project-slider" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img src="http://lorempixel.com/1800/600/abstract" alt="First Slide" class="d-block img-fluid m-auto">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>My Reads</h3>
+            <p>An interactive bookshelf application built with React</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="http://lorempixel.com/1800/600/abstract" alt="Second Slide" class="d-block img-fluid m-auto">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Readable</h3>
+            <p>A content and comment application built with React and Redux</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="http://lorempixel.com/1800/600/abstract" alt="Third Slide" class="d-block img-fluid m-auto">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Nieghborhood Map</h3>
+            <p>A map application built with Knockout and the Google Maps and Foursquare APIs</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -153,5 +180,13 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script>
+    $('.carousel').carousel({
+      interval:3000,
+      keyboard: true,
+      pause:'hover',
+      wrap:true
+    });
+  </script>
 </body>
 </html>

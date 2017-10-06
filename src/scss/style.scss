@@ -31,6 +31,16 @@ button:hover {
   }
 }
 
+#skills-section {
+  .btn-skill {
+    height: 100px;
+    width: 100px;
+  }
+  .btn-skill:hover {
+    cursor: pointer;
+  }
+}
+
 .btn-circle {
   width: 70px;
   height: 70px;

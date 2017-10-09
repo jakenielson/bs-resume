@@ -41,6 +41,18 @@ button:hover {
   }
 }
 
+.carousel-item img {
+  border-radius: 10px;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,0.5);
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
 .btn-circle {
   width: 70px;
   height: 70px;

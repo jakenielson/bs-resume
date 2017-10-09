@@ -41,16 +41,19 @@ button:hover {
   }
 }
 
-.carousel-item img {
-  border-radius: 10px;
-}
-
 .carousel-caption {
   background-color: rgba(0,0,0,0.5);
   max-width: 500px;
   margin: auto;
   border-radius: 10px;
   word-wrap: break-word;
+}
+
+#education-section {
+  ul p {
+    line-height: 1.2em;
+    margin-bottom: 5px;
+  }
 }
 
 .btn-circle {
@@ -60,4 +63,8 @@ button:hover {
   font-size: 36px;
   line-height: 1.33;
   border-radius: 35px;
+}
+
+.modal-backdrop{
+  display: none;
 }
